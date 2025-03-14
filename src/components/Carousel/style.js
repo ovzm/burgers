@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const SlideContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 5rem;
   width: 100%;
   height: 100vh;
@@ -13,7 +13,7 @@ export const SlideContainer = styled.div`
 `;
 
 export const SlideText = styled.div`
-  width: 500px;
+  width: 550px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -33,6 +33,7 @@ export const SlideText = styled.div`
     background-color: #ff6200; 
     color: #fff;
     border: none;
+    margin: 1rem 0;
     padding: 10px 20px;
     font-size: 1.2rem;
     border-radius: 5px;
@@ -47,10 +48,10 @@ export const SlideText = styled.div`
 
 export const SlideImg = styled.div`
   display: flex;
-  width: 400px;  
+  width: 550px;  
 `;
 
 export const Img = styled.img`
   z-index: 0;
-  width: 400px;
+  width: 550px;
 `;

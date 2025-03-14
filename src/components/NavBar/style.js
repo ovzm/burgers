@@ -5,10 +5,10 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    left: 0;
+    right: 0;
     padding: 1rem 2rem;
     position: fixed;
-    top: 0;
-    left: 0;
     transition: background-color 0.3s ease-in-out, top 0.3s ease-in-out;
     z-index: 1000;
 
@@ -39,7 +39,8 @@ export const Nav = styled.nav`
         list-style: none;
 
         li {
-            margin-right: 1rem;
+            margin-right: 2rem;
+            font-size: 20px;
         }
     }
 
