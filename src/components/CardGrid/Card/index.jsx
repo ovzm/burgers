@@ -4,8 +4,11 @@ export const Card = ({ title, image, description }) => {
   return (
     <div>
       <h1>{title}</h1>
-      <img src={image} alt="Imagem" />
-      <p>{description}</p>
+      <div>
+        <img src={image} alt="Imagem" />
+        <p>{description}</p>
+      </div>
+      <button>Confira Já!</button>
     </div>
   );
 };

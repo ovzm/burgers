@@ -31,7 +31,7 @@ export const Nav = styled.nav`
     }
 
     img {
-        width: 60px;
+        width: 75px;
     }
 
     ul {
