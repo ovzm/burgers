@@ -12,10 +12,10 @@ export const CardContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 100%;
+  width: 150px;
   height: 150px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 50%;
 `;
 
 export const Title = styled.h3`
@@ -27,3 +27,17 @@ export const Description = styled.p`
   color: #555;
   font-size: 0.9rem;
 `;
+
+export const Btn = styled.button`
+  background-color: #E89129;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background-color:rgb(211, 132, 37);
+  }
+`;	

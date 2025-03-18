@@ -1,12 +1,15 @@
 import PropTypes from "prop-types";
-import { CardContainer, Image, Description, Title } from "./style";
+import { CardContainer, Image, Description, Title, Btn } from "./style";
 
 const Card = ({ title, img, description }) => {
   return (
     <CardContainer>
       <Image src={img} alt={title} />
-      <Title>{title}</Title>
-      <Description>{description}</Description>
+      <div>
+        <Title>{title}</Title>
+        <Description>{description}</Description>
+      </div>
+      <Btn>Confira Já!</Btn>
     </CardContainer>
   );
 };
