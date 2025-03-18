@@ -7,7 +7,7 @@ import burger2 from "../../assets/imgs/burger2.jpeg";
 import burger3 from "../../assets/imgs/burger3.jpeg";
 import { Img, SlideContainer, SlideImg, SlideText } from "./style.js";
 
-const Carousel = () => {
+export const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,

@@ -1,20 +1,20 @@
 import PropTypes from "prop-types";
+import { CardContainer, Image, Description, Title } from "./style";
 
-export const Card = ({ title, image, description }) => {
+const Card = ({ title, img, description }) => {
   return (
-    <div>
-      <h1>{title}</h1>
-      <div>
-        <img src={image} alt="Imagem" />
-        <p>{description}</p>
-      </div>
-      <button>Confira Já!</button>
-    </div>
+    <CardContainer>
+      <Image src={img} alt={title} />
+      <Title>{title}</Title>
+      <Description>{description}</Description>
+    </CardContainer>
   );
 };
 
 Card.propTypes = {
   title: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired
 };
+
+export default Card;
