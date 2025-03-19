@@ -1,16 +1,13 @@
 import styled from "styled-components";
 
-export const CarouselSection = styled.section`
-  height: 100vh;
-  background-color: black;
+export const SectionCard = styled.section`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-`;
+  margin: 5rem 0;
 
-export const ContentSection = styled.section`
-  height: 100vh;
-  background-color: white;
-
-  text-align: center;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 `;

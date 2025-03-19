@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const GridContainer = styled.div`
   display: grid;
-  gap: 20px;  
+  gap: 50px 100px;  
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
   @media (min-width: 900px) {
