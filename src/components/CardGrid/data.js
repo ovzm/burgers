@@ -8,7 +8,7 @@ import combo7 from "../../assets/imgs/menu/combo_7.jpeg";
 import combo8 from "../../assets/imgs/menu/combo_8.jpeg";
 import combo9 from "../../assets/imgs/menu/combo_9.jpeg";
 import lemonSoda from "../../assets/imgs/menu/lemonSoda.png";
-import onionRings from "../../assets/imgs/menu/onionRings.jpg";
+import onionRings from "../../assets/imgs/menu/onionRings.png";
 import polenta from "../../assets/imgs/menu/polenta.jpeg";
 import potatoFries from "../../assets/imgs/menu/potatoFries.png";
 import beer from "../../assets/imgs/menu/beer.png";
@@ -18,77 +18,71 @@ const cardsData = [
     {
       title: "Brasa Prime",
       img: combo1,
-      description: "Descrição do primeiro card",
+      description: "O verdadeiro hambúrguer artesanal.",
     },
     {
       title: "Texas Melt",
       img:combo2,
-      description: "Descrição do segundo card",
+      description: "Mais do que um lanche, uma experiência.",
     },
     {
       title: "Smoked Ranch",
       img: combo3,
-      description: "Descrição do terceiro card",
+      description: "Uma explosão de sabor a cada pedaço.",
     },
     {
       title: "Mad Grill",
       img: combo4,
-      description: "Descrição do quarto card",
+      description: "Sabor incrível em cada mordida.",
     },
     {
       title: "Brooklyn Smash",
       img: combo5,
-      description: "Descrição do quarto card",
+      description: "Tão bom que você vai querer repetir!",
     },
     {
       title: "Barbecue King",
       img: combo6,
-      description: "Descrição do quarto card",
+      description: "O hambúrguer que conquista no primeiro pedaço.",
     },
     {
       title: "Rustic Bacon",
       img: combo7,
-      description: "Descrição do quarto card",
+      description: "Cada mordida, uma nova paixão.",
     }, 
     {
       title: "Viking Smash",
       img: combo8,
-      description: "Descrição do quarto card",
+      description: "O equilíbrio perfeito entre suculência e sabor.",
     },
     {
       title: "Ranch BBQ",
       img: combo9,
-      description: "Descrição do quarto card",
+      description: "Feito para quem ama um verdadeiro hambúrguer.",
     },
     {
-      title: "Lemon Soda",
+      title: "Suco de Limão",
       img: lemonSoda,
-      description: "Descrição do quarto card",
     },
     {
-      title: "Onion Rings",
+      title: "Cebola Frita",
       img: onionRings,
-      description: "Descrição do quarto card",
     },
     {
-      title: "Polenta",
+      title: "Polenta Frita",
       img: polenta,
-      description: "Descrição do quarto card",
     },
     {
-      title: "Potato Fries",
+      title: "Batata Frita",
       img: potatoFries,
-      description: "Descrição do quarto card",
     },
     {
-      title: "Beer",
+      title: "Cerveja",
       img: beer,
-      description: "Descrição do quarto card",
     },
     {
-      title: "Soda",
+      title: "Refrigerante",
       img: soda,
-      description: "Descrição do quarto card",
     },
   ];
   

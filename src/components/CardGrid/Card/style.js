@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
   transition: 0.3s;
@@ -14,12 +20,16 @@ export const CardContainer = styled.div`
 export const Image = styled.img`
   width: 150px;
   height: 150px;
-  object-fit: cover;
   border-radius: 50%;
 `;
 
+export const Text = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+`;
+
 export const Title = styled.h3`
-  margin: 10px 0;
   font-size: 1.2rem;
 `;
 
