@@ -31,11 +31,13 @@ export const Text = styled.div`
 
 export const Title = styled.h3`
   font-size: 1.2rem;
+  margin-bottom: 0.1rem;
 `;
 
 export const Description = styled.p`
-  color: #555;
+  color:rgb(119, 119, 119);
   font-size: 0.9rem;
+  line-height: normal;
 `;
 
 export const Btn = styled.button`
@@ -48,6 +50,6 @@ export const Btn = styled.button`
   cursor: pointer;
   transition: 0.3s;
   &:hover {
-    background-color:rgb(211, 132, 37);
+    background-color:rgb(197, 124, 34);
   }
 `;	
