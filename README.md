@@ -7,7 +7,6 @@ Este é um projeto de um **cardápio digital interativo** para uma hamburgueria 
 - Carrossel com destaques na página inicial
 - Navegação entre Combos, Acompanhamentos e Bebidas
 - Página individual de Produto
-- Área de Avaliações e Promoções
 - Visualização do Carrinho de compras (vazio e com produtos)
 - **Em desenvolvimento**:
   - ✅ Adição de itens ao carrinho  
@@ -27,7 +26,7 @@ Atualmente, estou implementando a **lógica de gerenciamento do carrinho**, incl
 
 > Layout completo com fluxo de navegação:
 
-![Figma - Cardápio](./assets/figma-cardapio.png)
+![Figma - Cardápio](./assets/readme/tela-home)
 
 ## 🛠️ Tecnologias Utilizadas
 
